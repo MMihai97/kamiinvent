@@ -182,10 +182,10 @@ footer {
     .nav-links {
         position: absolute;
         top: 70px;
-        left: 20px;
-        right: 20px;
+        left: 17px;
+        right: 17px;
         background-color: #A67C68;
-        width: calc(100% - 40px);
+        width: calc(100% - 34px);
         height: 0;
         overflow: hidden;
         transition: height 0.3s ease;
