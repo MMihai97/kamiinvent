@@ -1,15 +1,3 @@
-/* Adăugat body pentru adaptare mobil similar cu styles-blog.css */
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #333;
-    width: 90%;
-    overflow-x: hidden;
-}
 
 header {
     background-color: #A67C68;
