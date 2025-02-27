@@ -21,9 +21,9 @@ header {
 
 .main-content {
     flex: 1;
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
-    margin: 2px auto 20px auto;
+    margin: 20px auto 20px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
