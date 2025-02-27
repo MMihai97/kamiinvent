@@ -1,8 +1,9 @@
 @font-family: 'Josefin Sans', sans-serif;
 
 
+
 .container {
-    width: calc(90% - 20px); /* Redus cu 20px față de 90% original */
+    width: calc(90% - 10px); /* Redus cu 20px față de 90% original */
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
