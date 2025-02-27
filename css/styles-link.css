@@ -1,15 +1,4 @@
-/* Adăugat body pentru a preveni scroll-ul orizontal pe mobil */
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #333;
-    width: 100vw; /* Asigură că body-ul nu depășește viewport-ul */
-    overflow-x: hidden; /* Previne scroll-ul orizontal */
-}
+
 
 header {
     background-color: #A67C68;
