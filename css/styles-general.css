@@ -1,14 +1,5 @@
 /* Stiluri generale */
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #333;
-    position: relative;
-}
+
 
 .container {
     width: calc(90% - 20px); /* Redus cu 20px față de 90% original */
