@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livrare</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-general.css">
+    <link rel="stylesheet" href="css/styles-link.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="blog-page">
+    <header>
+        <div class="container">
+            <div class="back-arrow">
+                <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+            </div>
+            <div class="social-media">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://telegram.org" target="_blank"><i class="fab fa-telegram"></i></a>
+            </div>
+            <div class="logo">
+                <a href="index.html">KAMI Invent</a>
+            </div>
+        </div>
+    </header>
+    <main class="main-content">
+        <h1>Livrare</h1>
+        <!-- Secțiunea de tab-uri -->
+        <div class="policy-tabs">
+            <button class="tab-link active" data-tab="livrare">Livrare</button>
+        </div>
+
+        <!-- Conținutul tab-urilor -->
+        <div class="tab-content">
+            <div id="livrare" class="tab-pane active">
+                <section class="policy-container">
+                    <article class="policy-post">
+                        <h2>Livrare</h2>
+                        <!-- Conținutul va fi adăugat ulterior -->
+                    </article>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Despre Noi</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Link-uri Utile</h3>
+                <ul>
+                    <li><a href="magazine.html">Magazine</a></li>
+                    <li><a href="livrare.html">Livrare</a></li>
+                    <li><a href="achitare.html">Achitare</a></li>
+                    <li><a href="schimb-si-retur.html">Schimb și Retur</a></li>
+                    <li><a href="politica-de-confidentialitate.html">Politica de Confidențialitate</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: <a href="mailto:info@kamiinvent.md">info@kamiinvent.md</a></p>
+                <p>Telefon: +37361289249</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 KAMI Invent. Toate drepturile rezervate.</p>
+        </div>
+    </footer>
+    <div class="cart-floating">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count">0</span>
+    </div>
+    <div class="cart-panel">
+        <div class="cart-header">
+            <h2>Coș de cumpărături</h2>
+            <button class="cart-close-x">X</button>
+        </div>
+        <div class="cart-items"></div>
+        <p class="cart-total">Suma totală: <span id="cart-total-value">0</span> MDL</p>
+        <button class="place-order">Plasează comanda</button>
+        <div class="order-form" style="display: none;">
+            <div class="order-step-1">
+                <h3>Date personale</h3>
+                <label for="order-first-name">Nume:</label>
+                <input type="text" id="order-first-name" name="first-name" required>
+                <label for="order-last-name">Prenume:</label>
+                <input type="text" id="order-last-name" name="last-name" required>
+                <label for="order-email">Email:</label>
+                <input type="email" id="order-email" name="email" required>
+                <label for="order-phone">Telefon:</label>
+                <input type="tel" id="order-phone" name="phone" pattern="[0-9]+" required>
+                <label for="order-city">Oraș:</label>
+                <input type="text" id="order-city" name="city" required>
+                <label for="order-address">Adresă:</label>
+                <input type="text" id="order-address" name="address" required>
+                <button type="button" class="next-step" disabled>Mai departe</button>
+            </div>
+            <div class="order-step-2" style="display: none;">
+                <h3>Metoda de plată</h3>
+                <div class="payment-options">
+                    <label><input type="radio" name="payment" value="cash" checked><i class="fas fa-hand-holding-usd"></i> Cash</label>
+                    <label><input type="radio" name="payment" value="card"><i class="fas fa-credit-card"></i> Card</label>
+                </div>
+                <button type="submit" class="submit-order" id="submit-order">Confirmă comanda</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script-general.js"></script>
+    <script src="js/script-blog.js"></script>
+</body>
+</html>
