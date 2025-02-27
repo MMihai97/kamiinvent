@@ -5,6 +5,7 @@ header {
     padding: 10px 0;
     border-radius: 20px;
     margin: 10px;
+    align-items:center;
 }
 
 .back-arrow a {
@@ -337,6 +338,7 @@ footer {
     width: 90%;
     max-width: 1200px;
     margin: 10px;
+    align-items:center;
 }
 
 .footer-content {
